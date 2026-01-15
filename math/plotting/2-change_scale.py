@@ -9,7 +9,8 @@ y = np.exp((r / t) * x)
 
 # your code here
 
-plt.plot(y)
+plt.plot(y,color="Red")
 plt.title("Exponential Decay of C-14")
 plt.xlabel("Time(years)")
 plt.ylabel("Fraction Renmaining")
+plt.show()
